@@ -14,7 +14,6 @@ public abstract class Character {
         this.armor = a; 
     }
 
-    // Тот самый метод, которого не хватает в Main:
     public void getStats() {
         System.out.println("--- " + name + " (" + this.getClass().getSimpleName() + ") ---");
         System.out.println("HP: " + health + " | MP: " + mana + " | STR: " + strength + " | INT: " + intelligence);
